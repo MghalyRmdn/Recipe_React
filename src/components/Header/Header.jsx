@@ -5,6 +5,7 @@ import Navbar from "../Navbar/Navbar";
 import css from "./Header.module.css";
 import SearchIcon from "../../assets/icons/Search.svg";
 // import axios from "axios";
+const API_URL = process.env.REACT_APP_URL
 
 class Header extends React.Component {
   state = {
@@ -17,7 +18,7 @@ class Header extends React.Component {
   handleKeyPress = (event) => {
     if (event.key === "Enter") {
       window.location.href =
-        "http://localhost:3000/search?title=" + this.state.title_rcp;
+        API_URL + "/search?title=" + this.state.title_rcp;
     }
   };
   render() {
