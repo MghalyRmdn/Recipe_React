@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.08ebf60f.chunk.css",
+    "main.js": "/static/js/main.f146d184.chunk.js",
+    "main.js.map": "/static/js/main.f146d184.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9b67150b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9b67150b.js.map",
+    "static/css/2.b85ccb3e.chunk.css": "/static/css/2.b85ccb3e.chunk.css",
+    "static/js/2.728b6af4.chunk.js": "/static/js/2.728b6af4.chunk.js",
+    "static/js/2.728b6af4.chunk.js.map": "/static/js/2.728b6af4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.b85ccb3e.chunk.css.map": "/static/css/2.b85ccb3e.chunk.css.map",
+    "static/css/main.08ebf60f.chunk.css.map": "/static/css/main.08ebf60f.chunk.css.map",
+    "static/js/2.728b6af4.chunk.js.LICENSE.txt": "/static/js/2.728b6af4.chunk.js.LICENSE.txt",
+    "static/media/76c7e3577554580136d5f65222046a21.a6459629.png": "/static/media/76c7e3577554580136d5f65222046a21.a6459629.png",
+    "static/media/index.css": "/static/media/AirbnbCerealMedium.60c1c921.ttf",
+    "static/media/Search.005e1332.svg": "/static/media/Search.005e1332.svg",
+    "static/media/Header.module.css": "/static/media/background.3036b8b7.png",
+    "static/media/burger.1a1f50e5.png": "/static/media/burger.1a1f50e5.png",
+    "static/media/healthy-bone-broth-ramen.bbb77c61.png": "/static/media/healthy-bone-broth-ramen.bbb77c61.png",
+    "static/media/kare-chicken.7e11c1cb.png": "/static/media/kare-chicken.7e11c1cb.png",
+    "static/media/not-found.969ebda6.jpg": "/static/media/not-found.969ebda6.jpg",
+    "static/media/photo-comment.d6c30ec7.png": "/static/media/photo-comment.d6c30ec7.png",
+    "static/media/profile.60103caf.png": "/static/media/profile.60103caf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b67150b.js",
+    "static/css/2.b85ccb3e.chunk.css",
+    "static/js/2.728b6af4.chunk.js",
+    "static/css/main.08ebf60f.chunk.css",
+    "static/js/main.f146d184.chunk.js"
+  ]
+}

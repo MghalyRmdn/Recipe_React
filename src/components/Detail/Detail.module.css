@@ -1,0 +1,163 @@
+.Title {
+	margin-top: 60px;
+	color: #2E266F
+}
+
+.ImageSize {
+	margin-top: 20px;
+	max-width: 700px;
+	height: 450px;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	border-radius: 15px;
+}
+
+.ButtonList {
+	display: flex;
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+
+.SavedButton, .LikedButton {
+	height: 42px;
+	width: 42px;
+	cursor: pointer;
+	display: flex;
+	align-content: center;
+	border-radius: 16px;
+	margin-left: 10px;
+}
+
+.SavedButton {
+	background-color: #EFC81A;
+}
+
+.LikedButton {
+	background-color: #FFFFFF;
+}
+
+.SavedButton img {
+	margin-top: 8px;
+	margin-left: 11px;
+	width: 20px;
+	height: 26px;
+}
+
+.LikedButton img {
+	margin-top: 5px;
+	margin-left: 6px;
+	width: 30px;
+	height: 30px;
+}
+
+.Description {
+	margin-top: 50px;
+	max-width: 850px;
+}
+
+.TextDesc, .TextVideo, .TextComment {
+	font-family: 'Airbnb Cereal App Medium';
+	color: #3F3A3A;
+}
+
+.TextDesc {
+	margin-bottom: 20px;
+}
+
+.StepList span {
+	font-family: 'Airbnb Cereal App Light';
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.TextVideo {
+	margin-top: 50px;
+}
+
+.VideoItem {
+	margin-top: 20px;
+	max-width: 300px;
+	height: 90px;
+	background-color: #EFC81A;
+	border-radius: 15px;
+	text-align: center;
+}
+.VideoItem img {
+	margin-top: 40px;
+	height: 20px;
+	width: 22px;
+}
+
+.CommentSection {
+	margin-top: 60px;
+}
+
+.CommentForm {
+	border: none;
+	padding: 20px;
+	min-width: 850px;
+	min-height: 300px;
+	background-color: #F6F5F4;
+	color: #666666;
+	border-radius: 15px;
+}
+.CommentButton {
+	margin-top: 20px;
+	min-width: 400px;
+	height: 50px;
+	background-color: #EFC81A;
+	color: #FFFFFF;
+	border-radius: 6px;
+	border: none;
+}
+
+.CommentList {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.ImageItem {
+	margin-top: 5px;
+	height: 44px;
+	min-width: 44px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.CommentItem {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.CommentUserName {
+	font-family: 'Airbnb Cereal App Medium';
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.CommentUserText {
+	font-family: 'Airbnb Cereal App Light';
+}
+
+.Loading {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-color: rgba(244, 244, 244, 1);
+	z-index: 100;
+}
+
+@media only screen and ( max-width: 1076px ) {
+	.CommentForm {
+		min-width: 70vw;
+	}
+
+	.ImageSize {
+		height: 45vw;
+	}
+}

@@ -1,0 +1,16 @@
+.galery {
+  width: 80%;
+  margin: 50px auto 100px;
+  /* margin: auto; */
+  /* border: 2px solid orangered; */
+  list-style: none;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+}
+
+.text-block {
+  margin-top: -80px;
+  color: white;
+  padding-left: 10px;
+}

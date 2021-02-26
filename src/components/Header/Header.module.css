@@ -1,0 +1,82 @@
+/* ================================================== */
+/* HEADER */
+/* ================================================== */
+header {
+  background-image: url(../../assets/images/background.png);
+  background-size: cover;
+  height: 100vh;
+}
+
+/* === Hero Text === */
+.HeroTextBox {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.HeroTextBox h1 {
+  color: #2e266f;
+  font-weight: 500;
+  font-size: 240%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+/* === Search Input === */
+.SearchArea {
+  max-width: 358px !important;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.SearchBar {
+  position: relative;
+  max-width: 670px;
+  width: 100%;
+}
+
+input.Search {
+  width: 100% !important;
+  height: 60px !important;
+  padding-left: 20px !important;
+  padding-right: 40px !important;
+  background-color: #efefef;
+  border: 1px solid #8e8e93 !important;
+  border-radius: 23px !important;
+  font-size: 16px !important;
+  line-height: 16px !important;
+  color: #666666 !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+}
+
+.SearchIcon {
+  position: absolute !important;
+  z-index: 1;
+  top: 21px;
+  right: 20px;
+  cursor: pointer;
+}
+
+/* SMALL DEVICES 0 - 480PX */
+@media only screen and (max-width: 600px) {
+  header {
+    background-image: none;
+  }
+
+  .HeroTextBox {
+    width: 100%;
+  }
+}
+
+/* SMALL PHONES TO SMALL TABLETS 481PX - 767PX */
+@media only screen and (max-width: 768px) {
+  header {
+    background: none;
+  }
+}

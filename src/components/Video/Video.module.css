@@ -1,0 +1,74 @@
+.LeftBar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 70px;
+	background-color: #EFC81A;
+	z-index: -1;
+}
+
+.VideoSize {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.VideoTitle {
+	font-size: 28px;
+	line-height: 30px;
+}
+.VideoDate {
+	font-size: 14px;
+	color: #AAAAAA;
+	margin-top: 30px;
+}
+
+.NextVideoCard {
+	margin-bottom: 35px;
+	color: #000000;
+	position: relative;
+}
+.VideoImageCard {
+	width: 100%;
+	object-fit: contain;
+	/* min-width: 100%; */
+	/* min-height: 180px; */
+	height: auto;
+	background-position: center;
+	background-size: cover;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+.VideoNextText {
+	font-family: 'Airbnb Cereal App Light';
+	font-weight: bold;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 14px;
+	color: #F8F8F8;
+}
+.VideoCardTitle {
+	font-size: 16px;
+	line-height: 0px;
+}
+.VideoCardDate {
+	margin-top: -10px;
+	font-size: 10px;
+	color: #AAAAAA;
+}
+
+@media only screen and ( max-width: 576px ) {
+	.VideoTitle {
+		font-size: 20px;
+	}
+}
+
+@media only screen and ( max-width: 1200px ) {
+	.VideoSize {
+		max-width: 100%;
+	}
+}

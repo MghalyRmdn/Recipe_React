@@ -1,0 +1,24 @@
+.Box {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+.Box img {
+  border-radius: 20px;
+  filter: brightness(60%);
+}
+
+.BottomLeft {
+  position: absolute;
+  color: white;
+  bottom: 90PX;
+  left: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Box {
+    width: 100%;
+  }
+}

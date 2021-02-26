@@ -1,0 +1,110 @@
+main#Main {
+  height: 100vh;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.HeadLine {
+  padding: 10px;
+  border-left: 10px solid #efc81a;
+}
+
+.Wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Box {
+  position: relative;
+  width: 300px;
+  margin: 10px;
+}
+
+.BottomLeft {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+}
+
+footer {
+  margin-top: 150px;
+  padding: 100px 0 10px 0;
+  background-color: #efc81a;
+  font-family: "Airbnb Cereal App Light";
+}
+
+.Slogan {
+  color: #2e266f;
+  text-align: center;
+}
+
+.Slogan h1 {
+  line-height: 48px;
+  font-size: 450%;
+}
+
+.Slogan p {
+  margin-top: 45px;
+}
+
+.FooterNav {
+  text-align: center;
+}
+
+.MainNav {
+  list-style: none;
+  margin-top: 100px;
+  padding-left: 0px;
+}
+
+.MainNav li {
+  display: inline-block;
+  /* padding: 0 40px 0 0; */
+  margin: 0 40px 0 0;
+  padding-left: 0px;
+}
+
+.MainNav li a:link,
+.MainNav li a:visited {
+  padding: 8px 0;
+  color: #2e266f;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.2s;
+  transition: border-bottom 0.2s;
+}
+
+.MainNav li a:hover,
+.MainNav li a:active {
+  border-bottom: 2px solid #2e266f;
+}
+
+@media only screen and (max-width: 600px) {
+  main#Main {
+    width: 100%;
+    margin-top: 370px;
+  }
+
+  .Box {
+    width: 100%;
+  }
+
+  .Slogan h1 {
+    line-height: 48px;
+    font-size: 250%;
+  }
+
+  .FooterNav {
+    text-align: center;
+    margin-left: 35px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .Wrapper {
+    justify-content: space-evenly;
+  }
+}

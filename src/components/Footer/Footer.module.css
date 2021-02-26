@@ -1,0 +1,56 @@
+.Wrapper {
+	height: auto;
+	background-color: #EFC81A;
+	color: #2E266F;
+	padding-top: 200px;
+	font-family: 'Airbnb Cereal App Light';
+	margin-top: 20px;
+	position: relative;
+}
+
+.Title {
+	font-size: 64px;
+}
+
+.Subtitle {
+	font-size: 22px;
+	color: #707070;
+	text-transform: capitalize;
+}
+
+.NavList {
+	margin-top: 150px;
+	/* width: 400px; */
+	padding-left: 7vw;
+}
+.NavItem {
+	display: inline-block;
+	color: #707070;
+	margin-right: 15px;
+	font-size: 16px;
+	margin-bottom: 25px;
+}
+
+.Copyright {
+	font-size: 14px;
+	color: #000000;
+	float: right;
+}
+
+@media only screen and (max-width: 575.98px) {
+	.NavList {
+		margin-top: 100px;
+		/* width: 180px; */
+		/* padding-bottom: 10px; */
+	}
+	.NavItem {
+		display: block;
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+
+	.Copyright {
+		float: none;
+		text-align: center;
+	}
+}
